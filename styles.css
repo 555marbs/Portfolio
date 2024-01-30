@@ -139,75 +139,133 @@ footer {
     height: 40px;
 }
 
+
+
 /* Media queries */
-@media only screen and (max-width: 500px) {}
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: medium;
+    }
 
-body {
-    font-size: medium;
+    section {
+        padding: 15px;
+        margin: 25px 0;
+    }
+
+    #header {
+        background-color: #d6d6d6;
+        height: 50px;
+    }
+
+
+    .navbar-brand {
+        max-width: 15%;
+    }
+
+    .nav-bar {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about-container {
+        margin-top: 10px;
+    }
+
+    #about p {
+        font-size: medium;
+    }
+
+    .project-header-container {
+        margin-top: 0px;
+    }
+
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .contact-header-container {
+        margin-top: 0px;
+    }
+
+    .contact-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .contact-item {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+        font-size: small;
+    }
 }
 
-section {
-    padding: 15px;
-    margin: 25px 0;
-}
-
-#header {
-    background-color: #d6d6d6;
-    height: 50px;
-}
-
-
-.navbar-brand {
-    max-width: 15%;
-}
-
-.nav-bar {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.about-container {
-    margin-top: 10px;
-}
-
-#about p {
-    font-size: medium;
-}
-
-.project-header-container {
-    margin-top: 0px;
-}
-
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-    padding: 20px;
-}
-
-.contact-header-container {
-    margin-top: 0px;
-}
-
-.contact-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    padding: 10px;
-}
-
-.contact-item {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
-    font-size: small;
-}
 
 /* Media Queries for Tablets */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     body {
         font-size: medium;
     }
-
-    /* Adjust more styles as needed for tablets */
+    
+    section {
+        padding: 15px;
+        margin: 25px 0;
+    }
+    
+    #header {
+        background-color: #d6d6d6;
+        height: 50px;
+    }
+    
+    
+    .navbar-brand {
+        max-width: 15%;
+    }
+    
+    .nav-bar {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .about-container {
+        margin-top: 10px;
+    }
+    
+    #about p {
+        font-size: medium;
+    }
+    
+    .project-header-container {
+        margin-top: 0px;
+    }
+    
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .contact-header-container {
+        margin-top: 0px;
+    }
+    
+    .contact-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding: 10px;
+    }
+    
+    .contact-item {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+        font-size: small;
+    }
 }
