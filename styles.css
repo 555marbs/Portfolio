@@ -10,7 +10,7 @@ body {
     top: 0;
     width: 100vw;
     background-color: #d6d6d669;
-    
+
 }
 
 section {
@@ -32,7 +32,9 @@ section {
     max-width: 9%;
     height: auto;
 }
-.nav-bar, .nav-bar .nav-items a {
+
+.nav-bar,
+.nav-bar .nav-items a {
     text-decoration: none;
     color: inherit;
     transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out;
@@ -52,9 +54,11 @@ section {
 #about span {
     font-style: oblique;
 }
+
 #about p {
     font-size: x-large;
 }
+
 #about h3 {
     color: #000000;
     text-align: center;
@@ -66,6 +70,7 @@ section {
 .project-header-container {
     margin-top: 100px;
 }
+
 #projects h3 {
     color: #000000;
     text-align: center;
@@ -132,4 +137,77 @@ footer {
     padding-bottom: 19px;
     width: 100%;
     height: 40px;
+}
+
+/* Media queries */
+@media only screen and (max-width: 500px) {}
+
+body {
+    font-size: medium;
+}
+
+section {
+    padding: 15px;
+    margin: 25px 0;
+}
+
+#header {
+    background-color: #d6d6d6;
+    height: 50px;
+}
+
+
+.navbar-brand {
+    max-width: 15%;
+}
+
+.nav-bar {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.about-container {
+    margin-top: 10px;
+}
+
+#about p {
+    font-size: medium;
+}
+
+.project-header-container {
+    margin-top: 0px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.contact-header-container {
+    margin-top: 0px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.contact-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: small;
+}
+
+/* Media Queries for Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: medium;
+    }
+
+    /* Adjust more styles as needed for tablets */
 }
